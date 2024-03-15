@@ -12,10 +12,10 @@ export const HeroCard = ({
 
   return (
     <>
-      <div className="col">
+      <div className="col animate__animated animate__fadeIn">
         <div className="card">
           <div className="row no-gutters">
-            <div className="col-4">
+            <div className="col-4 ">
               <img src={heroImageURL} alt={superhero} className="card-img" />
             </div>
             <div className="col-8">
