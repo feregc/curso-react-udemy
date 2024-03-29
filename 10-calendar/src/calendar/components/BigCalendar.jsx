@@ -39,6 +39,19 @@ export const BigCalendar = () => {
     },
   ];
 
+
+  const onDoubleClick = (e) => {
+    console.log( { doubleClick: e } );
+  }
+
+  const onSelect = (e) => {
+    console.log( { doubleClick: e } );
+  }
+
+  // const onDoubleClick = (e) => {
+  //   console.log( {doubleClick: e} );
+  // }
+
   return (
     <Calendar
       culture="es"
