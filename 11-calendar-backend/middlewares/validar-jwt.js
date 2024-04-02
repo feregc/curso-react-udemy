@@ -6,8 +6,6 @@ const validarJWT = (req, res = response, next) => {
   // x-token headers
   const token = req.header('x-token');
 
-  console.log('El token es: ',token);
-
   if ( !token ) {
     return res.status(401).json({
       ok: false,
